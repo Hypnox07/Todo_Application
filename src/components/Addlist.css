@@ -1,0 +1,81 @@
+.Addlist{
+    border: 1px solid white;
+    max-width :600px;
+    /* height: 130px; */
+    margin: 50px auto;
+    padding: 30px;
+    margin-top: -15px;
+  background: linear-gradient(135deg, #15fe00, #00c3ff);
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.active{
+    align-items: center;
+    margin-left: 5px;
+    width: 100px;
+    padding: 8px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+.inactive{
+    align-items: center;
+    margin-left: 5px;
+    width: 100px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color:black;
+
+
+}
+.taslist{
+    display: flex;
+    flex-direction: column;
+}
+.tasklist-item{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.tasklist-item h2{
+    font-size:25px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+.tasklist-item p{
+    font-size: 14px;
+    color:rgb(60, 60, 60);
+    margin-top: 8px;
+}
+.icon{
+    font-size: 28px;
+    margin-right: 15px;
+    color: black;
+    cursor: pointer;
+}
+.icon:hover{
+    color: red;
+
+}
+.icon-check{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(3, 252, 3);
+    cursor: pointer;
+}

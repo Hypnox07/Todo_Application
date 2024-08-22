@@ -1,0 +1,42 @@
+.Addtask{
+    border: 1px solid white;
+    width :600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    padding: 30px;
+  background: linear-gradient(135deg, #15fe00, #00c3ff);
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.Addtask label{
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+
+}
+.Addtask input{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.Addtask input[type=text]:focus{
+    outline: none;
+}
+.Addtask button{
+    padding: 10px;
+    width: 80px;
+    background-color:white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+   
+}
+.Addtask button:hover{
+    background-color:black;
+    color: white;
+}
